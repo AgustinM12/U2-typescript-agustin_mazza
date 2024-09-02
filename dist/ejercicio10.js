@@ -1,19 +1,13 @@
+"use strict";
 // * 10. Herencia de clases Crea una clase ElectricCar que extienda de Car e incluya una propiedad adicional batteryLife (vida de la batería) de tipo número. Añade un método charge() que imprima un mensaje diciendo que el coche se está cargando.
-import { Car3 } from "./ejercicio9"
-
 class ElectricCar extends Car3 {
-    batteryLife: number;
-
-    constructor(make: string, batteryLife: number) {
+    constructor(make, batteryLife) {
         super(make);
-        this.batteryLife = batteryLife
+        this.batteryLife = batteryLife;
     }
-
-    charge(): void {
+    charge() {
         console.log("La bateria esta cargando");
     }
 }
-
-const myElectricCar = new ElectricCar("Tesla", 5)
-
-myElectricCar.charge();
+const myElectricCar = new ElectricCar("Tesla", 5);
+console.log(myElectricCar.charge());
