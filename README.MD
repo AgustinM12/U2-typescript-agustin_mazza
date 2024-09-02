@@ -4,8 +4,10 @@ Este repositorio contiene una serie de 15 ejercicios diseñados para practicar l
 
 # Requisitos Previos
 - Tener instalado Node.js y TypeScript en tu entorno de desarrollo.
-
-- Conocimientos básicos de TypeScript.
+- Instalar las dependencias del proyecto mediante el siguiente comando:
+```bash
+ npm install
+ ```
 
 # Ejecución
 
